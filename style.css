@@ -29,7 +29,8 @@ body {
     background-color: rgba(0, 0, 0, 0.48);
 }
 
-h3 {
+h3,
+h1 {
     font-family: 'neo-latina';
 }
 
@@ -100,15 +101,56 @@ a:hover {
     min-height: 100%;
     z-index: -1;
 }
-@media (min-aspect-ratio: 16/9){
-    #myVideo{
-        width: 100%;
-        height: auto;
+
+video {
+
+    width: 100%;
+    height: auto;
+
+}
+
+.aas {
+
+
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.exh3 {
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-link {
+
+        margin-left: 100px;
+        text-align: right;
+
     }
 }
-@media (max-aspect-ratio: 16/9){
-    #myVideo{
-        width: auto;
-        height: 100%;
+
+
+@media screen and (min-width: 900px) {
+    footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
     }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .aas {
+
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
 }

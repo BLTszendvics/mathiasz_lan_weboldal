@@ -247,3 +247,20 @@ $(function(){
   ]
   });
 });
+
+var kis = document.getElementById("kiszam");
+var hany = 1;
+var max = 10;
+
+function SLnext() {
+
+  hany++;
+  document.getElementById("kiszam").innerHTML = hany+"/"+max;
+
+}
+function SLback() {
+
+  hany--;
+  document.getElementById("kiszam").innerHTML = hany+"/"+max;
+
+}
